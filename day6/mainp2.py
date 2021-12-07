@@ -1,6 +1,8 @@
 import sys
 import numpy as np
 
+# Solution from YouTube Gravitar
+
 def read_puzzle(file):
     with open(file) as f:
         return list(map(f.read().count, '012345678'))
